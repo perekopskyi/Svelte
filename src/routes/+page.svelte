@@ -16,8 +16,22 @@
   onMount(loadDataset);
 </script>
 
-<h2>Test 1</h2>
-<Table dataset={dataset1} />
-<hr />
-<h2>Test 2</h2>
-<Table dataset={dataset2}/>
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .header {
+    margin-left: 24px;
+  }
+</style>
+
+<div class="container">
+  <h2 class="header">Test 1</h2>
+  <Table dataset={dataset1} />
+  <hr />
+  <h2 class="header">Test 2</h2>
+  <Table dataset={dataset2}/>
+</div>

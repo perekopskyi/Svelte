@@ -15,8 +15,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    padding: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); 
+    padding: 8px 16px;
     margin-top: 16px;
   }
 </style>

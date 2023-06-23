@@ -7,6 +7,12 @@
   const link = item.financialEventGroupId ? `https://sellercentral.amazon.com/gp/payments-account/view-transactions.html?subview=groups&groupId=${item.financialEventGroupId}` : null
 </script>
 
+<style>
+  .date-column {
+    width: 20%;
+  }
+</style>
+
 <div class="date-column">
   {#if link}
     <a href={link}>{formattedRange}</a>

@@ -9,7 +9,7 @@
 <style>
   .status-column {
     text-align: left;
-    align-self: flex-start;
+    width: 50%;
   }
 </style>
 

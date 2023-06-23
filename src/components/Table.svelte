@@ -4,8 +4,15 @@
   export let dataset
 </script>
 
+<style>
+  .table {
+    margin: 16px auto;
+  }
+</style>
 
-{#if dataset.length === 0}
+
+<div class="table">
+  {#if dataset.length === 0}
   <!-- Skeleton loading blocks -->
   {#each Array(6).fill(0) as _, i}
     <Skeleton />
@@ -19,3 +26,4 @@
   {/if}
   {/each}
 {/if}
+</div>

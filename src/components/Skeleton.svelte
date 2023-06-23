@@ -6,7 +6,7 @@
     background-color: #f2f2f2;
     color: grey;
     border-radius: 4px;
-    height: 60px;
+    height: 55px;
     width: 100%;
     margin-top: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
